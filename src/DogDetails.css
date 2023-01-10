@@ -1,0 +1,19 @@
+.DogDetails-card {
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.44); 
+}
+.DogDetails-img {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DogDetails-img img{
+    width: 80%; 
+    margin: auto;
+    transition: 0.8s all ease;
+    filter: grayscale();
+}
+
+.DogDetails-card:hover img{
+    filter: none;
+}
